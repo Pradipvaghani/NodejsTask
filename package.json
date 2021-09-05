@@ -1,0 +1,23 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "basic-auth": "^2.0.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.17.1",
+    "graphql": "^15.5.2",
+    "graphql-request": "^3.5.0",
+    "mongodb": "^2.2.33"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}

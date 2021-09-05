@@ -1,0 +1,760 @@
+{
+	"info": {
+		"_postman_id": "52625f88-c66d-4ad0-8395-0b7bbfa5e4bd",
+		"name": "Demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Subscber",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "Name",
+							"value": "PRADIP",
+							"type": "text"
+						},
+						{
+							"key": "Gender",
+							"value": "MALE",
+							"type": "text"
+						},
+						{
+							"key": "Email",
+							"value": "VAGHANIPRAIDP001@GMAIL.COM",
+							"type": "text"
+						},
+						{
+							"key": "Mobile",
+							"value": "8460108887",
+							"type": "text"
+						},
+						{
+							"key": "Address1",
+							"value": "SURAT",
+							"type": "text"
+						},
+						{
+							"key": "Address2",
+							"value": "SURAT",
+							"type": "text"
+						},
+						{
+							"key": "State",
+							"value": "GUJARAT",
+							"type": "text"
+						},
+						{
+							"key": "City",
+							"value": "SURAT",
+							"type": "text"
+						},
+						{
+							"key": "ZipCode",
+							"value": "395006",
+							"type": "text"
+						},
+						{
+							"key": "Country",
+							"value": "INDIA",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8000/notes",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"notes"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Create Subscber",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "Name",
+									"value": "PRADIP",
+									"type": "text"
+								},
+								{
+									"key": "Gender",
+									"value": "MALE",
+									"type": "text"
+								},
+								{
+									"key": "Email",
+									"value": "VAGHANIPRAIDP001@GMAIL.COM",
+									"type": "text"
+								},
+								{
+									"key": "Mobile",
+									"value": "8460108887",
+									"type": "text"
+								},
+								{
+									"key": "Address1",
+									"value": "SURAT",
+									"type": "text"
+								},
+								{
+									"key": "Address2",
+									"value": "SURAT",
+									"type": "text"
+								},
+								{
+									"key": "State",
+									"value": "GUJARAT",
+									"type": "text"
+								},
+								{
+									"key": "City",
+									"value": "SURAT",
+									"type": "text"
+								},
+								{
+									"key": "ZipCode",
+									"value": "395006",
+									"type": "text"
+								},
+								{
+									"key": "Country",
+									"value": "INDIA",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:8000/notes",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"notes"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "233"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"e9-oJieNX9ndv0K8o+ClOfTABpbhrM\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 04 Sep 2021 09:14:24 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"Name\": \"PRADIP\",\n    \"Gender\": \"MALE\",\n    \"Email\": \"VAGHANIPRAIDP001@GMAIL.COM\",\n    \"Mobile\": \"8460108887\",\n    \"Address1\": \"SURAT\",\n    \"Address2\": \"SURAT\",\n    \"State\": \"GUJARAT\",\n    \"City\": \"SURAT\",\n    \"ZipCode\": \"395006\",\n    \"Country\": \"INDIA\",\n    \"_id\": \"613338f09009af036872bb2d\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Update Subscriber",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "Name",
+							"value": "PRADIP1",
+							"type": "text"
+						},
+						{
+							"key": "Gender",
+							"value": "MALE",
+							"type": "text"
+						},
+						{
+							"key": "Email",
+							"value": "VAGHANIPRAIDP001@GMAIL.COM",
+							"type": "text"
+						},
+						{
+							"key": "Mobile",
+							"value": "8460108887",
+							"type": "text"
+						},
+						{
+							"key": "Address1",
+							"value": "SURAT",
+							"type": "text"
+						},
+						{
+							"key": "Address2",
+							"value": "SURAT",
+							"type": "text"
+						},
+						{
+							"key": "State",
+							"value": "GUJARAT",
+							"type": "text"
+						},
+						{
+							"key": "City",
+							"value": "SURAT",
+							"type": "text"
+						},
+						{
+							"key": "ZipCode",
+							"value": "395006",
+							"type": "text"
+						},
+						{
+							"key": "Country",
+							"value": "INDIA",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8000/notes/613338f09009af036872bb2d",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"notes",
+						"613338f09009af036872bb2d"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Update Subscriber",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "Name",
+									"value": "PRADIP1",
+									"type": "text"
+								},
+								{
+									"key": "Gender",
+									"value": "MALE",
+									"type": "text"
+								},
+								{
+									"key": "Email",
+									"value": "VAGHANIPRAIDP001@GMAIL.COM",
+									"type": "text"
+								},
+								{
+									"key": "Mobile",
+									"value": "8460108887",
+									"type": "text"
+								},
+								{
+									"key": "Address1",
+									"value": "SURAT",
+									"type": "text"
+								},
+								{
+									"key": "Address2",
+									"value": "SURAT",
+									"type": "text"
+								},
+								{
+									"key": "State",
+									"value": "GUJARAT",
+									"type": "text"
+								},
+								{
+									"key": "City",
+									"value": "SURAT",
+									"type": "text"
+								},
+								{
+									"key": "ZipCode",
+									"value": "395006",
+									"type": "text"
+								},
+								{
+									"key": "Country",
+									"value": "INDIA",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:8000/notes/613338f09009af036872bb2d",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"notes",
+								"613338f09009af036872bb2d"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "287"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"11f-t2SBQGuVeSSDsInh1dYdBpzcuQc\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 04 Sep 2021 09:16:11 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"n\": 1,\n    \"nModified\": 1,\n    \"opTime\": {\n        \"ts\": \"7004004908496060417\",\n        \"t\": 158\n    },\n    \"electionId\": \"7fffffff000000000000009e\",\n    \"ok\": 1,\n    \"$clusterTime\": {\n        \"clusterTime\": \"7004004908496060417\",\n        \"signature\": {\n            \"hash\": \"0YAipiWiRq5t1fdeV5Ai/bocDGk=\",\n            \"keyId\": \"6951432412848979970\"\n        }\n    },\n    \"operationTime\": \"7004004908496060417\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete Subscriber",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "_id",
+							"value": "613337be134c190e6c3c159f",
+							"type": "text"
+						},
+						{
+							"key": "Name",
+							"value": "PRADIP1",
+							"type": "text"
+						},
+						{
+							"key": "Gender",
+							"value": "MALE",
+							"type": "text"
+						},
+						{
+							"key": "Email",
+							"value": "VAGHANIPRAIDP001@GMAIL.COM",
+							"type": "text"
+						},
+						{
+							"key": "Mobile",
+							"value": "8460108887",
+							"type": "text"
+						},
+						{
+							"key": "Address1",
+							"value": "SURAT",
+							"type": "text"
+						},
+						{
+							"key": "Address2",
+							"value": "SURAT",
+							"type": "text"
+						},
+						{
+							"key": "State",
+							"value": "GUJARAT",
+							"type": "text"
+						},
+						{
+							"key": "City",
+							"value": "SURAT",
+							"type": "text"
+						},
+						{
+							"key": "ZipCode",
+							"value": "395006",
+							"type": "text"
+						},
+						{
+							"key": "Country",
+							"value": "INDIA",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8000/notes/613338f09009af036872bb2d",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"notes",
+						"613338f09009af036872bb2d"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Delete Subscriber",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "_id",
+									"value": "613337be134c190e6c3c159f",
+									"type": "text"
+								},
+								{
+									"key": "Name",
+									"value": "PRADIP1",
+									"type": "text"
+								},
+								{
+									"key": "Gender",
+									"value": "MALE",
+									"type": "text"
+								},
+								{
+									"key": "Email",
+									"value": "VAGHANIPRAIDP001@GMAIL.COM",
+									"type": "text"
+								},
+								{
+									"key": "Mobile",
+									"value": "8460108887",
+									"type": "text"
+								},
+								{
+									"key": "Address1",
+									"value": "SURAT",
+									"type": "text"
+								},
+								{
+									"key": "Address2",
+									"value": "SURAT",
+									"type": "text"
+								},
+								{
+									"key": "State",
+									"value": "GUJARAT",
+									"type": "text"
+								},
+								{
+									"key": "City",
+									"value": "SURAT",
+									"type": "text"
+								},
+								{
+									"key": "ZipCode",
+									"value": "395006",
+									"type": "text"
+								},
+								{
+									"key": "Country",
+									"value": "INDIA",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:8000/notes/613338f09009af036872bb2d",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"notes",
+								"613338f09009af036872bb2d"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "38"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"26-kCrKA7T4SArhNSV0ikztvqoj8KU\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 04 Sep 2021 09:17:48 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "Note 613338f09009af036872bb2d deleted!"
+				}
+			]
+		},
+		{
+			"name": "Get All Subscriber",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "_id",
+							"value": "613337be134c190e6c3c159f",
+							"type": "text"
+						},
+						{
+							"key": "Name",
+							"value": "PRADIP1",
+							"type": "text"
+						},
+						{
+							"key": "Gender",
+							"value": "MALE",
+							"type": "text"
+						},
+						{
+							"key": "Email",
+							"value": "VAGHANIPRAIDP001@GMAIL.COM",
+							"type": "text"
+						},
+						{
+							"key": "Mobile",
+							"value": "8460108887",
+							"type": "text"
+						},
+						{
+							"key": "Address1",
+							"value": "SURAT",
+							"type": "text"
+						},
+						{
+							"key": "Address2",
+							"value": "SURAT",
+							"type": "text"
+						},
+						{
+							"key": "State",
+							"value": "GUJARAT",
+							"type": "text"
+						},
+						{
+							"key": "City",
+							"value": "SURAT",
+							"type": "text"
+						},
+						{
+							"key": "ZipCode",
+							"value": "395006",
+							"type": "text"
+						},
+						{
+							"key": "Country",
+							"value": "INDIA",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8000/notes",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"notes"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get All Subscriber",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "_id",
+									"value": "613337be134c190e6c3c159f",
+									"type": "text"
+								},
+								{
+									"key": "Name",
+									"value": "PRADIP1",
+									"type": "text"
+								},
+								{
+									"key": "Gender",
+									"value": "MALE",
+									"type": "text"
+								},
+								{
+									"key": "Email",
+									"value": "VAGHANIPRAIDP001@GMAIL.COM",
+									"type": "text"
+								},
+								{
+									"key": "Mobile",
+									"value": "8460108887",
+									"type": "text"
+								},
+								{
+									"key": "Address1",
+									"value": "SURAT",
+									"type": "text"
+								},
+								{
+									"key": "Address2",
+									"value": "SURAT",
+									"type": "text"
+								},
+								{
+									"key": "State",
+									"value": "GUJARAT",
+									"type": "text"
+								},
+								{
+									"key": "City",
+									"value": "SURAT",
+									"type": "text"
+								},
+								{
+									"key": "ZipCode",
+									"value": "395006",
+									"type": "text"
+								},
+								{
+									"key": "Country",
+									"value": "INDIA",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:8000/notes",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"notes"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "545"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"221-axmuvoBHunZFEplBzdvH5goDIFY\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 04 Sep 2021 09:32:20 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"_id\": \"613329cb1b6baa053c514300\",\n        \"text\": null,\n        \"title\": null\n    },\n    {\n        \"_id\": \"61332a181b6baa053c514301\",\n        \"text\": null,\n        \"title\": null\n    },\n    {\n        \"_id\": \"61332a871b6baa053c514302\",\n        \"text\": \"test\",\n        \"title\": \"test\"\n    },\n    {\n        \"_id\": \"61333557a9197f1ed804fd2a\",\n        \"text\": null,\n        \"title\": null\n    },\n    {\n        \"_id\": \"6133357ea9197f1ed804fd2b\",\n        \"text\": \"PRADIP\",\n        \"title\": \"TEST\"\n    },\n    {\n        \"_id\": \"613337be134c190e6c3c159f\",\n        \"Name\": \"PRADIP\",\n        \"Gender\": \"MALE\",\n        \"Email\": \"VAGHANIPRAIDP001@GMAIL.COM\",\n        \"Mobile\": \"8460108887\",\n        \"Address1\": \"SURAT\",\n        \"Address2\": \"SURAT\",\n        \"State\": \"GUJARAT\",\n        \"City\": \"SURAT\",\n        \"ZipCode\": \"395006\",\n        \"Country\": \"INDIA\"\n    }\n]"
+				}
+			]
+		}
+	]
+}
